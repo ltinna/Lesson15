@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Hello, SmartNinja</title>
-    </head>
+{% extends "base.html" %}
 
-    <body>
-        <h1>About me VAJA</h1>
-    <a href="/">Index</a>
-    </body>
-</html>
+{% block title %}
+About me
+{% endblock title %}
+
+ {% block content %}
+<p>About me</p>
+{% endblock content %}

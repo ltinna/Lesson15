@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{% endblock title %}</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+
+    <body>
+    <p>
+        <a href="/">Index</a>
+        <a href="/about">About</a>
+    </p>
+        <p>Test</p>
+    {% block content %}
+        {% endblock content %}
+
+    </body>
+</html>
